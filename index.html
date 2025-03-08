@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMED SATHYA STORE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: #1f1f1f;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            font-size: 20px;
+            color: #FFD700;
+        }
+        .payment-method {
+            text-align: left;
+            margin: 15px 0;
+            padding: 10px;
+            background: #2a2a2a;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .payment-method img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+        .copy-btn {
+            background: #FFD700;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+        .copy-btn:hover {
+            background: #e6c200;
+        }
+        .qris {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .qris img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 8px;
+        }
+        .saweria {
+            margin-top: 10px;
+            font-size: 16px;
+            background: #FF6600;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔹 PAYMED SATHYA STORE 🔹</h1>
+
+        <div class="qris">
+            <h3>🌐 QRIS</h3>
+            <img src="https://i.ibb.co/g3crYW1/image.jpg" alt="QRIS">
+        </div>
+
+        <div class="payment-method">
+            <div><img src="https://images.app.goo.gl/B8gmKDEe3S3aDh1k9"> ShopeePay</div>
+            <button class="copy-btn" onclick="copyText('081329731976')">Copy</button>
+        </div>
+
+        <div class="payment-method">
+            <div><img src="https://images.app.goo.gl/2B2tworvCM7kr6GT7"> Dana</div>
+            <button class="copy-btn" onclick="copyText('081329731976')">Copy</button>
+        </div>
+
+        <div class="payment-method">
+            <div><img src="https://images.app.goo.gl/f3YNgWgZ8Wpzf5yN7"> Gopay</div>
+            <button class="copy-btn" onclick="copyText('081329731976')">Copy</button>
+        </div>
+
+        <div class="payment-method">
+            <div><img src="https://images.app.goo.gl/MDmNKHqm6Z4AFv1Z6"> Ovo</div>
+            <button class="copy-btn" onclick="copyText('081329731976')">Copy</button>
+        </div>
+
+        <div class="payment-method">
+            <div><img src="https://images.app.goo.gl/akuoX67ckmaXE1Qp7"> Seabank</div>
+            <button class="copy-btn" onclick="copyText('901528584218')">Copy</button>
+        </div>
+
+        <div class="payment-method">
+            <div><img src="https://images.app.goo.gl/msXryMHFgYYH1vW66"> Nobu Madera</div>
+            <button class="copy-btn" onclick="copyText('86100769153')">Copy</button>
+        </div>
+
+        <a class="saweria" href="https://saweria.co/sathyastore" target="_blank">🌟 Saweria</a>
+    </div>
+
+    <script>
+        function copyText(text) {
+            navigator.clipboard.writeText(text);
+            alert("Nomor berhasil disalin: " + text);
+        }
+    </script>
+
+</body>
+</html>
